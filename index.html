@@ -15,6 +15,35 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="#gameover">Game over oder QED?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#hintergrund">Hintergrund</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ansprechpartner">Ansprechpartner</a></li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <!-- Header-->
             <header class="bg-dark py-5" style="background: url(img/bg.jpg); background-size: 100%; background-position: center;">
                 <div class="container px-5">
@@ -36,7 +65,7 @@
                     </div>
                 </div>
             </header>
-            <section class="py-5 bg-light" id="scroll-target">
+            <section class="py-5 bg-light" id="gameover">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -75,12 +104,12 @@
                     </div>
                 </div>
             </section>
-            <!-- Intro section-->
-            <div class="py-5">
+            <!-- Hintergrund section-->
+            <section class="py-5" id="hintergrund">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
-                      <div class="col-lg-10 col-xl-7">
-                         <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="col-lg-10 col-xl-7">
+                        <div class="col-lg-4 mb-5 mb-lg-0">
                             <h2 class="fw-bolder mb-0">Hintergrund</h2>
                         </div>
                                 <div class="fs-4 mb-4">
@@ -108,7 +137,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Project section-->
             <section class="py-5 bg-light" id="project">
                 <div class="container px-5 my-5">
@@ -128,8 +157,8 @@
                 </div>
             </section>
              
-            <!-- Features section-->
-            <section class="py-5" id="project">
+            <!-- Ansprechpartner section-->
+            <section class="py-5" id="ansprechpartner">
                 <div class="container px-5 my-5">
                     <div class="row gx-5">
                         <div class="col-lg-4 mb-5 mb-lg-0">
@@ -145,6 +174,7 @@
                     </div>
                 </div>
             </section>
+        </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <!-- <div class="container px-5">
