@@ -15,6 +15,35 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="#gameover">Game over oder QED?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projekt">Das Projekt</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#ansprechpartner">Ansprechpartner</a></li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                    <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                    <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                    <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                                </ul>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <!-- Header-->
             <header class="bg-dark py-5" style="background: url(img/bg.jpg); background-size: 100%; background-position: center;">
                 <div class="container px-5">
@@ -36,7 +65,7 @@
                     </div>
                 </div>
             </header>
-            <section class="py-5" id="scroll-target">
+            <section class="py-5" id="gameover">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-12">
@@ -80,71 +109,69 @@
                     </div>
                 </div>
             </section>
-            <section>
-            <div class="py-5 bg-light">
-              <div class="container px-5 my-5">
-                <div class="row gx-5 align-items-center">
-                        <!--<div class="col-xl-12">-->
-                    <h2 class="fw-bolder mb-4">Das Projekt</h2>
-                    <div class="col-xl-8">
-                      <p  class="fs-5 mb-4">
-                        Computergestützte Beweisassistenten haben
-                        heute ein Niveau erreicht, das die
-                        vollständige Formalisierung, Verifizierung
-                        und digitale Weiterverarbeitung weiter Teile
-                        unseres mathematischen Kenntnisstandes
-                        greifbar nah erscheinen lässt. Erfolgreiche
-                        Formalisierungsprojekte wie das 
-                        <a href="https://leanprover-community.github.io/sphere-eversion/">
-                          Sphere Eversion Project</a>
-                        oder das 
-                        <a href="https://leanprover-community.github.io/blog/posts/lte-final/">
-                          Liquid Tensor Experiment</a>
-                        zeigen, dass es inzwischen
-                        möglich ist, tiefliegende mathematische
-                        Sätze mit vertretbarem Aufwand digital
-                        abzubilden und zu verifizieren. Wir müssen
-                        davon ausgehen, dass für die nächste
-                        Generation Mathematiker:innen
-                        Beweisassistenten und digitale Beweisbibliotheken zu einem wichtigen
-                        Werkzeug avancieren werden.
-                      </p>
-                      
-                      <p  class="fs-5 mb-4">Das Projekt <i>ADAM</i> an der <a href="https://www.hhu.de/">Heinrich-Heine-Universität Düsseldorf</a> möchte einen Beitrag
-                        leisten, Mathematiker:innen für diesen
-                        bevorstehenden Wandel zu wappnen. Es wird
-                        finanziert durch die Stiftung für Innovation
-                        in der Hochschullehre.
-                      </p>
-                    </div>
-                    <div class="col-xl-4">
-                      <div class="col lg-8 h-100">
-                        <img src="img/hhu.png" width="100%" style="max-width:30em"/>
+            <section class="py-5" id="projekt">
+              <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                  <div class="row gx-5 align-items-center">
+                    <!--<div class="col-xl-12">-->
+                      <h2 class="fw-bolder mb-4">Das Projekt</h2>
+                      <div class="col-xl-8">
+                        <p  class="fs-5 mb-4">
+                          Computergestützte Beweisassistenten haben
+                          heute ein Niveau erreicht, das die
+                          vollständige Formalisierung, Verifizierung
+                          und digitale Weiterverarbeitung weiter Teile
+                          unseres mathematischen Kenntnisstandes
+                          greifbar nah erscheinen lässt. Erfolgreiche
+                          Formalisierungsprojekte wie das 
+                          <a href="https://leanprover-community.github.io/sphere-eversion/">
+                            Sphere Eversion Project</a>
+                          oder das 
+                          <a href="https://leanprover-community.github.io/blog/posts/lte-final/">
+                            Liquid Tensor Experiment</a>
+                          zeigen, dass es inzwischen
+                          möglich ist, tiefliegende mathematische
+                          Sätze mit vertretbarem Aufwand digital
+                          abzubilden und zu verifizieren. Wir müssen
+                          davon ausgehen, dass für die nächste
+                          Generation Mathematiker:innen
+                          Beweisassistenten und digitale Beweisbibliotheken zu einem wichtigen
+                          Werkzeug avancieren werden.
+                        </p>
+                        
+                        <p  class="fs-5 mb-4">Das Projekt <i>ADAM</i> an der <a href="https://www.hhu.de/">Heinrich-Heine-Universität Düsseldorf</a> möchte einen Beitrag
+                          leisten, Mathematiker:innen für diesen
+                          bevorstehenden Wandel zu wappnen. Es wird
+                          finanziert durch die Stiftung für Innovation
+                          in der Hochschullehre.
+                        </p>
                       </div>
-                      <div class="col mb-4 h-100">
-                        <img src="img/Logo_Stiftung_Hochschullehre_pos.png" width="100%" style="max-width:30em" />
-                      </div>
-                      <!--</div>-->
+                      <div class="col-xl-4">
+                        <div class="col lg-8 h-100">
+                          <img src="img/hhu.png" width="100%" style="max-width:30em"/>
                         </div>
+                        <div class="col mb-4 h-100">
+                          <img src="img/Logo_Stiftung_Hochschullehre_pos.png" width="100%" style="max-width:30em" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section class="py-5" id="ansprechpartner">
+              <div class="container px-5 my-5">
+                <div class="row gx-5">
+                  <h2 class="fw-bolder mb-4">Ansprechpartner</h2>
+                  <ul class="fs-5 mb-4">
+                    <li><a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Prof. Dr. Marcus Zibrowius</a></li>
+                    <li><a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebra-und-zahlentheorie/team/prof-immanuel-halupczok">Prof. Dr. Immanuel Halupczok</a></li>
+                    <li><a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebraische-geometrie/team/jon-eugster">Jon Eugster</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
             </section>
-             
-            <section class="py-5" id="people">
-              <div class="container px-5 my-5">
-                <div class="row gx-5">
-                  <h2 class="fw-bolder mb-4">Ansprechpartner</h2>
-                  <!--                  <div class="col-lg-8 fs-4">-->
-                    <ul class="fs-5 mb-4">
-                      <li><a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Prof. Dr. Marcus Zibrowius</a></li>
-                      <li><a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebra-und-zahlentheorie/team/prof-immanuel-halupczok">Prof. Dr. Immanuel Halupczok</a></li>
-                      <li><a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebraische-geometrie/team/jon-eugster">Jon Eugster</a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
+        </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <!-- <div class="container px-5">
