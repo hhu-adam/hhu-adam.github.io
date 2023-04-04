@@ -23,11 +23,10 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="#gameover">Game over oder QED?</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#gameover">Seminar</a></li>
                             <li class="nav-item"><a class="nav-link" href="#massot">Vortrag Massot</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#lftcm:tutorial">LftCM Tutorium</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#lftcm:colloquium">LftCM Colloquium</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#ansprechpartner">Ansprechpartner</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#lftcm">LftCM 2023</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#traeger">Träger</a></li>
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
@@ -67,31 +66,68 @@
                     </div>
                 </div>
             </header>
-            <section class="py-5" id="gameover">
+            <section class="py-5" id="projekt">
+              <div class="container px-5 my-5">
+                <div class="row gx-5 align-items-center">
+                  <div class="col-lg-12">
+                    <h2 class="fw-bolder mb-4">Das Projekt</h2>
+                    <p class="fs-5 mb-4">
+                      Die Ansprüche, die Mathematiker:innen an Beweise stellen, haben sich über die Jahrhunderte immer wieder verändert.
+                      Wäre im digitalen Zeitalter nicht eine vollständige Formalisierung und algorithmische Überprüfung von Beweisen durch Computer angemessen?
+                      Diese Frage bleibt umstritten.  Eines aber ist aus den bisherigen Erfahrungen klar: Eine solche Formalisierung hat überhaupt nur dann Aussicht auf Erfolg, wenn  ein großer Teil der Formalisierung selbst, also der detaillierten formalen Ausformulierung von Beweisen, systematisch durch Computer unterstützt wird.
+                      Hier liegt die Aufgabe von <i>interaktiven Beweisassistenten</i>. Sie ermöglichen es uns Menschen, mathematische Beweise so zu formalisieren, dass ein Computer sie verifizieren kann.
+                    </p>
+                    <p  class="fs-5 mb-4">
+                      Inzwischen haben computergestützte Beweisassistenten
+                      ein Niveau erreicht, das die
+                      vollständige Formalisierung, Verifizierung
+                      und digitale Weiterverarbeitung weiter Teile
+                      unseres mathematischen Kenntnisstandes
+                      greifbar nah erscheinen lässt. Erfolgreiche
+                      Formalisierungsprojekte wie das 
+                      <a href="https://leanprover-community.github.io/sphere-eversion/">
+                        Sphere Eversion Project</a>
+                      oder das 
+                      <a href="https://leanprover-community.github.io/blog/posts/lte-final/">
+                        Liquid Tensor Experiment</a>
+                      zeigen, dass es inzwischen
+                      möglich ist, tiefliegende mathematische
+                      Sätze mit vertretbarem Aufwand digital
+                      abzubilden und zu verifizieren. Wir müssen
+                      davon ausgehen, dass für die nächste
+                      Generation Mathematiker:innen
+                      Beweisassistenten und digitale Beweisbibliotheken zu einem wichtigen
+                      Werkzeug avancieren werden.
+                    </p>
+                    <p  class="fs-5 mb-4">Das Projekt <i>ADAM</i> möchte einen Beitrag
+                      leisten, Mathematiker:innen für diesen
+                      bevorstehenden Wandel zu wappnen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="py-5 bg-light" id="gameover">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-12">
                             <h2 class="fw-bolder mb-4">Seminar <i>Game over oder QED?</i></h2>
                             <p class="fs-5 mb-4">
-                                Die Ansprüche, die Mathematiker:innen an Beweise stellen, haben sich über die Jahrhunderte immer wieder verändert.
-                                Wäre im digitalen Zeitalter nicht eine vollständige Formalisierung und algorithmische Überprüfung von Beweisen durch Computer angemessen?
-                                Diese Frage bleibt umstritten.  Eines aber ist aus den bisherigen Erfahrungen klar: Eine solche Formalisierung hat überhaupt nur dann Aussicht auf Erfolg, wenn  ein großer Teil der Formalisierung selbst, also der detaillierten formalen Ausformulierung von Beweisen, systematisch durch Computer unterstützt wird.
-                                Hier liegt die Aufgabe von <i>interaktiven Beweisassistenten</i>. Sie ermöglichen es uns Menschen, mathematische Beweise so zu formalisieren, dass ein Computer sie verifizieren kann.
-                            </p>
-                            <p class="fs-5 mb-4">
-                              Im Seminar werden wir lernen, Beweise und typische Übungsaufgaben aus den ersten Mathematiksemestern mit Hilfe des modernen Beweisassistenten <a href="https://leanprover.github.io/">Lean</a> zu formalisieren und zu verifizieren.  Obwohl sich Lean noch in der aktiven Entwicklungsphase befindet, hat sich Lean bereits sowohl in der Formalisierung <a href="https://leanprover-community.github.io/mathlib-overview.html">weiter Teile des Bachelor-Curriculums</a> als auch bei der Formalisierung tiefliegender mathematischer Forschungsergebnisse bewährt.
+                              In diesem Seminar lernen die Teilnehmer:innen, Beweise und typische Übungsaufgaben aus den ersten Mathematiksemestern mit Hilfe des modernen Beweisassistenten <a href="https://leanprover.github.io/">Lean</a> zu formalisieren und zu verifizieren.  Obwohl sich Lean noch in der aktiven Entwicklungsphase befindet, hat sich Lean bereits sowohl in der Formalisierung <a href="https://leanprover-community.github.io/mathlib-overview.html">weiter Teile des Bachelor-Curriculums</a> als auch bei der Formalisierung tiefliegender mathematischer Forschungsergebnisse bewährt.
                             </p>
                             
                             <p class="fs-5 mb-4">
-                              Unser Ansatz ist „Learning by doing“.  In einer eigens entwickelten Weboberfläche meistern wir Woche für Woche neue Formalisierungs-Herausforderungen.  Jede neue Herausforderung wird von einer Seminarteilnehmer:in im Vorfeld vorbereitet.  Eine wichtige Aufgabe der Teilnehmer:innen wird dabei sein, durch ihr Feedback die Inhalte und die Weboberfläche weiter zu verbessern.
+                             Der Ansatz ist „Learning by doing“.  Als Einstieg dient ein eigens entwickeltes Browser-Game.  Die Teilnehmer:innen helfen, durch gezieltes Feedback dieses Lernspiel weiter zu verbessern. In der zweiten Seminarhälfte werden die Teilnehmer:innen aktiv in die weitere Spielentwicklung eingebunden.
                             </p>
 
                             <p class="fs-5 mb-4">
-                              Sie können sich ab März 2023 über das <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240496&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y&menu_open=y#terms">LSF</a> für dieses Seminar anmelden.
+                              Das Seminar richtet sich an Bachelor-Studierende der Studiengänge <i>Mathematik und Anwendungsgebiete</i> oder <i>Finanz- und Versicherungsmathematik</i>, ab dem vierten Semester.
+                            </p>
+                              <!--Sie können sich ab März 2023 über das <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240496&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y&menu_open=y#terms">LSF</a> für dieses Seminar anmelden.
                               Die Teilnehmerzahl ist auf 12 begrenzt.  <!--Bei mehr Anmeldungen werden wir eine Auswahl treffen.-->
                             </p>
                             <p class="fs-5 mb-4">
-                              <b>Update 22. März 2023:</b> Die maximale Teilnehmerzahl von 12 wurde bereits erreicht.  Sie können sich aber weiterhin über das LSF anmelden.  Wir führen eine Warteliste.
+                              <b>Update 04. April 2023:</b> Die maximale Teilnehmerzahl wurde bereits erreicht.  Eine Anmeldung ist nicht mehr möglich.
                             </p>
                             <p><br></p>
                         </div>
@@ -110,17 +146,20 @@
                         <div class="col mb-4 mb-md-0 h-100">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
                             <h2 class="h5">Wer?</h2>
-                            <p class="mb-0">angemeldete Bachelor-Studierende der Studiengänge <i>Mathematik und Anwendungsgebiete</i> oder <i>Finanz- und Versicherungsmathematik</i>, ab dem vierten Semester</p>
+                            <p class="mb-0">zugelassene Teilnehmer</p>
                         </div>
                         <div class="col mb-4 mb-md-0 h-100">
                           <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
-                          <h2 class="h5">Link</h2>
-                          <p class="mb-0"><a href="https://adam.math.hhu.de">zum Spiel</a></p>
+                          <h2 class="h5">Links</h2>
+                          <p class="mb-0">
+                            <a href="https://adam.math.hhu.de">Browser-Game</a><br/>
+                            <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240496&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y&menu_open=y#terms">LSF-Eintrag</a>
+                          </p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="py-5 bg-light" id="massot">
+            <section class="py-5" id="massot">
               <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
                   <div class="col-lg-12">
@@ -153,19 +192,23 @@
                   <div class="col mb-4 mb-md-0 h-100">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
                     <h2 class="h5">Link</h2>
-                    <p class="mb-0"><a href="https://www.math.uni-duesseldorf.de/~internet/Kolloquium/index.html">Mathematical Colloguim HHU</a></p>
+                    <p class="mb-0"><a href="https://www.math.uni-duesseldorf.de/~internet/Kolloquium/index.html">Mathematisches Kolloquium</a></p>
                   </div>
                 </div>
               </div>
             </section>
-            <section class="py-5" id="lftcm:tutorial">
+            <section class="py-5 bg-light" id="lftcm">
               <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
+                  <h2 class="fw-bolder mb-4">Workshop <i>Lean for the Curious Mathematician 2023</i></h2>
                   <div class="col-lg-12">
-                    <h2 class="fw-bolder mb-4">Tutorium <i>Lean for the Curious Mathematician 2023</i></h2>
+                    <h3 class="fw-bolder mb-4">Tutorium</h3>
                     <p  class="fs-5 mb-4">
-                      Anfang September organisieren wir eine viertägige Einführung in den Beweisassistenten Lean mit erfahrenen, internationalen Tutoren.  Weitere Informationen dazu sind auf einer eigenen <a href="https://lftcm2023.github.io/tutorial/">Webseite</a> gebündelt.
+                      Anfang September organisieren wir eine viertägige Einführung in den Beweisassistenten Lean mit erfahrenen, internationalen Tutoren.
                     </p>
+                    <p>
+                      <br/>
+                    <p/>
                   </div>
                 </div>
                 <div class="row gx-5">
@@ -187,81 +230,61 @@
                   <div class="col mb-4 mb-md-0 h-100">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
                     <h2 class="h5">Link</h2>
-                    <p class="mb-0"><a href="https://lftcm2023.github.io/tutorial/">LFTCM2023-Webseite</a></p>
+                    <p class="mb-0"><a href="https://lftcm2023.github.io/tutorial/">LftCM 2023</a></p>
                   </div>
                 </div>
-              </div>
-            </section>
-            <section class="py-5 bg-light" id="lftcm:colloquium">
-              <div class="container px-5 my-5">
+                <p><br/></p>
                 <div class="row gx-5 align-items-center">
                   <div class="col-lg-12">
-                    <h2 class="fw-bolder mb-4">Kolloquium <i>Lean for the Curious Mathematician 2023</i></h2>
+                    <h3 class="fw-bolder mb-4">Kolloquium</h3>
                     <p  class="fs-5 mb-4">
-                      Im Anschluss an, aber inhaltich unabhängig vom gleichnamigen Tutorium veranstalten wir Anfang September ein zweitägiges Kolloquium.  Internationale Vortragende werden aktuelle Entwicklungen in der Formalisierung aus verschiedenen Richtungen beleuchten und zum Nachdenken über die zukünftige Rolle von Formalisierung in der Mathematik einladen.  Weitere Informationen sind wiederum auf einer eigenen <a href="https://lftcm2023.github.io/colloquium/">Webseite</a> gebündelt.
+                      Im Anschluss an, aber inhaltich unabhängig vom gleichnamigen Tutorium, veranstalten wir Anfang September ein zweitägiges Kolloquium.  Internationale Vortragende werden aktuelle Entwicklungen in der Formalisierung aus verschiedenen Richtungen beleuchten und zum Nachdenken über die zukünftige Rolle von Formalisierung in der Mathematik einladen.
+                      <!--Weitere Informationen sind wiederum auf einer eigenen <a href="https://lftcm2023.github.io/colloquium/">Webseite</a> gebündelt.-->
                     </p>
+                    <p>
+                      <br/>
                     </p>
                   </div>
-                </div>
-                <div class="row gx-5">
-                  <div class="col mb-4 h-100">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
-                    <h2 class="h5">Wann?</h2>
-                    <p class="mb-0">07.&ndash;08. September 2023</p>
-                  </div>
-                  <div class="col mb-4 h-100">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
-                    <h2 class="h5">Wo?</h2>
-                    <p class="mb-0">Heinrich-Heine-Universität Düsseldorf</p>
-                  </div>
-                  <div class="col mb-4 mb-md-0 h-100">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
-                    <h2 class="h5">Wer?</h2>
-                    <p class="mb-0">alle Interessierten</p>
-                  </div>
-                  <div class="col mb-4 mb-md-0 h-100">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
-                    <h2 class="h5">Link</h2>
-                    <p class="mb-0"><a href="https://lftcm2023.github.io/tutorial/">LFTCM2023-Webseite</a></p>
+                  <div class="row gx-5">
+                    <div class="col mb-4 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
+                      <h2 class="h5">Wann?</h2>
+                      <p class="mb-0">07.&ndash;08. September 2023</p>
+                    </div>
+                    <div class="col mb-4 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
+                      <h2 class="h5">Wo?</h2>
+                      <p class="mb-0">Heinrich-Heine-Universität Düsseldorf</p>
+                    </div>
+                    <div class="col mb-4 mb-md-0 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
+                      <h2 class="h5">Wer?</h2>
+                      <p class="mb-0">alle Interessierten</p>
+                    </div>
+                    <div class="col mb-4 mb-md-0 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
+                      <h2 class="h5">Link</h2>
+                      <p class="mb-0"><a href="https://lftcm2023.github.io/tutorial/">LftCM 2023</a></p>
+                    </div>
                   </div>
                 </div>
               </div>
             </section>
-            <section class="py-5" id="projekt">
+            <section class="py-5" id="traeger">
               <div class="py-5">
                 <div class="container px-5 my-5">
                   <div class="row gx-5 align-items-center">
                     <!--<div class="col-xl-12">-->
-                      <h2 class="fw-bolder mb-4">Das Projekt</h2>
+                      <h2 class="fw-bolder mb-4">Träger</h2>
                       <div class="col-xl-8">
-                        <p  class="fs-5 mb-4">
-                          Computergestützte Beweisassistenten haben
-                          heute ein Niveau erreicht, das die
-                          vollständige Formalisierung, Verifizierung
-                          und digitale Weiterverarbeitung weiter Teile
-                          unseres mathematischen Kenntnisstandes
-                          greifbar nah erscheinen lässt. Erfolgreiche
-                          Formalisierungsprojekte wie das 
-                          <a href="https://leanprover-community.github.io/sphere-eversion/">
-                            Sphere Eversion Project</a>
-                          oder das 
-                          <a href="https://leanprover-community.github.io/blog/posts/lte-final/">
-                            Liquid Tensor Experiment</a>
-                          zeigen, dass es inzwischen
-                          möglich ist, tiefliegende mathematische
-                          Sätze mit vertretbarem Aufwand digital
-                          abzubilden und zu verifizieren. Wir müssen
-                          davon ausgehen, dass für die nächste
-                          Generation Mathematiker:innen
-                          Beweisassistenten und digitale Beweisbibliotheken zu einem wichtigen
-                          Werkzeug avancieren werden.
+                        <p class="fs-5 mb-4">
+                          Das Projekt <i>ADAM: Anticipating the Digital Age of Mathematics</i> ist angesiedelt an der <a href="https://www.hhu.de/">Heinrich-Heine-Universität Düsseldorf</a> und wird finanziert durch die Stiftung für Innovation in der Hochschullehre.
                         </p>
-                        
-                        <p  class="fs-5 mb-4">Das Projekt <i>ADAM</i> an der <a href="https://www.hhu.de/">Heinrich-Heine-Universität Düsseldorf</a> möchte einen Beitrag
-                          leisten, Mathematiker:innen für diesen
-                          bevorstehenden Wandel zu wappnen. Es wird
-                          finanziert durch die Stiftung für Innovation
-                          in der Hochschullehre.
+                        <p class="fs-5 mb-4">
+                        Ansprechpartner:<br>
+                        • <a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Prof. Dr. Marcus Zibrowius</a><br/>
+                        • <a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebra-und-zahlentheorie/team/prof-immanuel-halupczok">Prof. Dr. Immanuel Halupczok</a><br/>
+                        • <a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebraische-geometrie/team/jon-eugster">Jon Eugster</a>
                         </p>
                       </div>
                       <div class="col-xl-4">
@@ -275,19 +298,7 @@
                     </div>
                   </div>
                 </div>
-            </section>
-            <section class="py-5 bg-light" id="ansprechpartner">
-              <div class="container px-5 my-5">
-                <div class="row gx-5">
-                  <h2 class="fw-bolder mb-4">Ansprechpartner</h2>
-                  <ul class="fs-5 mb-4">
-                    <li><a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Prof. Dr. Marcus Zibrowius</a></li>
-                    <li><a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebra-und-zahlentheorie/team/prof-immanuel-halupczok">Prof. Dr. Immanuel Halupczok</a></li>
-                    <li><a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebraische-geometrie/team/jon-eugster">Jon Eugster</a></li>
-                  </ul>
-                </div>
               </div>
-            </div>
             </section>
         </main>
         <!-- Footer-->
