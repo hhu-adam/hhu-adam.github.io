@@ -3940,13 +3940,18 @@ textarea.form-control-lg {
   list-style: none;
 }
 
-.nav-link {
+.nav-link .nav-text{
   display: block;
   padding: 0.5rem 1rem;
   color: #009ba8;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+
+.nav-text{
+    color: rgba(255, 255, 255, 0.55);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
@@ -4018,7 +4023,7 @@ textarea.form-control-lg {
 
 .nav-fill .nav-item .nav-link,
 .nav-justified .nav-item .nav-link {
-  width: 100%;
+    width: 100%;
 }
 
 .tab-content > .tab-pane {
@@ -11308,4 +11313,19 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 15rem;
+}
+
+.archive-btn {
+    background: gray;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    font-family: monospace;
+    font-size: smaller;
+    margin-right: 1em;
 }
