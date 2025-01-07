@@ -9,8 +9,8 @@
         <title>ADAM: Anticipating the Digital Age of Mathematics</title>
         <!-- Favicon-->
         <!-- <link rel="icon" type="image/x-icon" href="assets/favicon.ico" /> -->
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Bootstrap icons; preview them here: https://icons.getbootstrap.com/-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -23,13 +23,12 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#gameover">Seminar 2024</a></li>
-                        <li class="nav-text">[Archiv:</li>
-                        <li class="nav-item"><a class="nav-link" href="#lecture">Vorlesung 2023/24</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#results">Ergebnisse</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#lecture">Vorlesung</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gameover">Seminar Game Over</a></li>
                         <li class="nav-item"><a class="nav-link" href="#lftcm">Workshop LftCM 2023</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#gameover23">Seminar 2023</a></li>
                         <li class="nav-item"><a class="nav-link" href="#massot">Vortrag Massot</a></li>
-                        <li class="nav-text">]</li>
+                        <li class="nav-item"><a class="nav-link" href="#people">Personen</a></li>
                         <li class="nav-item"><a class="nav-link" href="#traeger">Träger</a></li>
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
@@ -104,37 +103,121 @@
                       Beweisassistenten und digitale Beweisbibliotheken zu einem wichtigen
                       Werkzeug avancieren werden.
                     </p>
-                    <p  class="fs-5 mb-4">Das Projekt <i>ADAM</i> möchte einen Beitrag
+                    <p  class="fs-5 mb-4">Ziel des Projekts <i>ADAM</i> war es, einen Beitrag
                       leisten, Mathematiker:innen für diesen
-                      bevorstehenden Wandel zu wappnen.
+                      bevorstehenden Wandel zu wappnen.  Laufzeit des Projekts war September 2022 bis Dezember 2024.
+                      Diese Seite gibt einen Überblick über die Projektergebnisse und über Veranstaltungen, die im Rahmen des Projekts stattgefunden haben.
                     </p>
                   </div>
                 </div>
               </div>
             </section>
             
+            <section class="py-5 bg-light" id="results">
+              <div class="container px-5 my-5">
+                <div class="col-lg-12">
+                  <h2 class="fw-bolder mb-4">Projektergebnisse</h2>
+                  
+                  <p class="fs-5 mb-4">
+                    Wichtigstes und bleibendes Ergebnis des Projekts sind ein Webeditor für Lean4, ein Lean-Lernspielserver (Leane Game Server) und die dahinter liegende Software, sowie das Spiel Robo, das anhand typischer Aufgaben aus der Studienanfangsphase in das Arbeiten mit Beweisassistenten einführt. 
+                  </p>
+                  <div class="row gx-5">
+                    <div class="col mb-4 mb-md-0 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-input-cursor-text"></i></div>
+                      <h2 class="h5">Lean4Web editor</h2>
+                      <p class="mb-0"><a href="https://lean.math.hhu.de/">Live Demo</a></p>
+                      <p class="mb-0"><a href="https://github.com/leanprover-community/lean4web">Code</a></p>
+                    </div>                 
+                    <div class="col mb-4 mb-md-0 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-server"></i></div>
+                      <h2 class="h5">Lean Game Server</h2>
+                      <p class="mb-0"><a href="https://adam.math.hhu.de/">Live Demo</a></p>
+                      <p class="mb-0"><a href="https://github.com/leanprover-community/lean4game">Code</a></p>
+                    </div>
+                    <div class="col mb-4 mb-md-0 h-100">
+                      <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-robot"></i></div>
+                      <h2 class="h5">Robo Game</h2>
+                      <p class="mb-0"><a href="https://adam.math.hhu.de/#/g/hhu-adam/robo">Live Demo</a></p>
+                      <p class="mb-0"><a href="https://github.com/hhu-adam/Robo">Code</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
+            <section class="py-5" id="lecture">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 align-items-center">
+                        <div class="col-lg-12">
+                          <h2 class="fw-bolder mb-4">Vorlesung <i>Computergestützte Beweisführung</i></h2>
+                          <!--<h3 class="fw-bolder mb-4">Wintersemester 2023/24</h3>-->
+                          <p class="fs-5 mb-4">
+                            In dieser Vorlesung trafen sich Studierende der Informatik, Mathematik und Computerlinguistik.
+                          </p>
+                          <p class="fs-5 mb-4">
+                            Beweisassistenten werden in der Chipherstellung und Softwareentwicklung eingesetzt, um die Fehlerfreiheit von Soft- und Hardware zu verifizieren. Sie geben MathematikerInnen letzte Gewissheit, wenn sie ihren eigenen Beweisen nicht trauen. Für LinguistInnen sind sie eine Möglichkeit, mit Typentheorie zu experimentieren – einem Formalismus, der auch zur Modellierung der Semantik natürlicher Sprache verwendet wird.
+                          </p>
+                          <p class="fs-5 mb-4">
+                            Die Vorlesung bat eine bündige Einführung in die Funktionsweise von Beweisassistenten und ihre theoretischen Grundlagen. Dazu zählten zum Beispiel der Lambda-Kalkül, Typentheorie inklusive induktiver Typen und die Curry-Howard-Korrespondenz. Zudem schauten wir uns beispielhaft an, wie Beweisassistenten und Typentheorie für die oben genannten Anwendungen eingesetzt werden können.
+                          </p>
+                          <p class="fs-5 mb-4">
+                            In den Übungen wurde die Theorie erfahrbar anhand von <a href="https://leanprover.github.io/">Lean</a>, einem modernen Beweisassistenten, der in der jüngsten Formalisierungswelle innerhalb der Mathematik eine maßgebende Rolle spielt.
+                          </p>
+                          <p><br/></p>
+                        </div>
+                    </div>
+                    <div class="row gx-5">
+                        <div class="col mb-4 h-100">
+                           <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
+                           <h2 class="h5">Wann?</h2>
+                           Wintersemester 2023/24
+                            <!--<p class="mb-0">siehe <a href="https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=246744&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF</a>-->
+                        </div>
+                        <div class="col mb-4 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
+                            <h2 class="h5">Wo?</h2>
+                            <p class="mb-0">Heinrich-Heine-Universität Düsseldorf
+                              <!--siehe <a href="https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=246744&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF</a>--></p>
+                        </div>
+                         <div class="col mb-4 mb-md-0 h-100">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
+                            <h2 class="h5">Wer?</h2>
+                            <p class="mb-0">Bachelor-Studierende der Mathematik, Informatik oder Computerlinguistik im 5./6. Semester</p>
+                        </div>
+                        <div class="col mb-4 mb-md-0 h-100">
+                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
+                          <h2 class="h5">Link</h2>
+                          <p class="mb-0">
+                            <a href="https://www.math.uni-duesseldorf.de/~internet/CB-V-W23/">Vorlesungs-Seite</a><br/>
+                            <!--<a href="https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=246744&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF-Eintrag</a>-->
+                          </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
             <section class="py-5 bg-light" id="gameover">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-12">
                           <h2 class="fw-bolder mb-4">Seminar <i>Game over oder QED?</i></h2>
-                          <h3 class="fw-bolder mb-4">Sommersemester 2024</h3>
+                          <!--<h3 class="fw-bolder mb-4">Sommersemester 2023 und 2024</h3>-->
                                               
                             <p class="fs-5 mb-4">
-                              In diesem Seminar lernen die Teilnehmer:innen, Beweise und typische Übungsaufgaben aus den ersten Mathematiksemestern mit Hilfe des modernen Beweisassistenten <a href="https://leanprover.github.io/">Lean</a> zu formalisieren und zu verifizieren.  Obwohl sich Lean noch in der aktiven Entwicklungsphase befindet, hat sich Lean bereits sowohl in der Formalisierung <a href="https://leanprover-community.github.io/mathlib-overview.html">weiter Teile des Bachelor-Curriculums</a> als auch bei der Formalisierung tiefliegender mathematischer Forschungsergebnisse bewährt.
+                              In diesem Seminar lernten die Teilnehmer:innen, Beweise und typische Übungsaufgaben aus den ersten Mathematiksemestern mit Hilfe des modernen Beweisassistenten <a href="https://leanprover.github.io/">Lean</a> zu formalisieren und zu verifizieren.  Obwohl sich Lean noch in der aktiven Entwicklungsphase befindet, hat sich Lean bereits sowohl in der Formalisierung <a href="https://leanprover-community.github.io/mathlib-overview.html">weiter Teile des Bachelor-Curriculums</a> als auch bei der Formalisierung tiefliegender mathematischer Forschungsergebnisse bewährt.
                             </p>
                             
                             <p class="fs-5 mb-4">
-                             Der Ansatz ist „Learning by doing“.  Als Einstieg dient ein eigens entwickeltes Browser-Game.  Die Teilnehmer:innen helfen, durch gezieltes Feedback dieses Lernspiel weiter zu verbessern. In der zweiten Seminarhälfte werden die Teilnehmer:innen aktiv in die weitere Spielentwicklung eingebunden.  Sie formalisieren selbständig Übungsaufgaben, die zukünftig in das Spiel integriert werden werden.
+                             Der Ansatz war „Learning by doing“.  Als Einstieg diente das eigens entwickelte Browser-Game Robo.  Die Teilnehmer:innen halfen, durch gezieltes Feedback dieses Lernspiel weiter zu verbessern. In der zweiten Seminarhälfte wurden die Teilnehmer:innen aktiv in die weitere Spielentwicklung eingebunden.  Sie formalisieren selbständig Übungsaufgaben, die zukünftig in das Spiel integriert werden können.
                             </p>
 
                             <p class="fs-5 mb-4">
-                              Das Seminar richtet sich an Bachelor-Studierende der Studiengänge <i>Mathematik und Anwendungsgebiete</i> oder <i>Finanz- und Versicherungsmathematik</i>, ab dem vierten Semester.
+                              Das Seminar richtete sich an Bachelor-Studierende der Studiengänge <i>Mathematik und Anwendungsgebiete</i> oder <i>Finanz- und Versicherungsmathematik</i>, ab dem vierten Semester.
                             </p>
-                          <p class="fs-5 mb-4">
+                          <!--<p class="fs-5 mb-4">
                             Sie können sich über das <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=253416&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF</a> für dieses Seminar anmelden.  Es gibt noch 4 freie Plätze (Stand: 30. März).  
-                          </p>
+                          </p>-->
                           <!--<p class="fs-5 mb-4">
                               <b>Update 04. April 2023:</b> Die maximale Teilnehmerzahl wurde bereits erreicht.  Eine Anmeldung ist nicht mehr möglich.
                             </p>-->
@@ -142,96 +225,44 @@
                         </div>
                     </div>
                     <div class="row gx-5">
-                        <div class="col mb-4 h-100">
+                        <div class="col mb-4 mb-md-0 h-100">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
                             <h2 class="h5">Wann?</h2>
-                            <p class="mb-0">mittwochs 10:30&nbsp;Uhr</p>
+                            <!--<p class="mb-0">mittwochs 10:30&nbsp;Uhr</p>-->
+                            <p class="mb-0">Sommersemester 2023 und 2024</p>
                         </div>
-                        <div class="col mb-4 h-100">
+                        <div class="col mb-4 mb-md-0 h-100">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
                             <h2 class="h5">Wo?</h2>
-                            <p class="mb-0">Seminarraum 25.22.03.73<!--<br>Heinrich-Heine-Universität Düsseldorf--></p>
+                            <p class="mb-0">Heinrich-Heine-Universität Düsseldorf</p>
                         </div>
                         <div class="col mb-4 mb-md-0 h-100">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
                             <h2 class="h5">Wer?</h2>
-                            <p class="mb-0">zugelassene Teilnehmer</p>
+                            <p class="mb-0">Bachelor-Studierende der Mathematik</p>
                         </div>
                         <div class="col mb-4 mb-md-0 h-100">
                           <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
-                          <h2 class="h5">Links</h2>
+                          <h2 class="h5">Link</h2>
                           <p class="mb-0">
-                            <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=253416&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF-Eintrag &amp; Anmeldung</a> <br>
+                            <!--<a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=253416&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF-Eintrag &amp; Anmeldung</a> <br>-->
                             <a href="https://adam.math.hhu.de">Lean Game Server</a>
                           </p>
                         </div>
                     </div>
                 </div>
             </section>
-
-
-
-            <section class="py-5" id="lecture">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-12">
-                          <h2 class="fw-bolder mb-4"><span class="archive-btn">[Archiv]</span>Vorlesung <i>Computergestützte Beweisführung</i></h2>
-                          <h3 class="fw-bolder mb-4">Wintersemester 2023/24</h3>
-                          <p class="fs-5 mb-4">
-                            In dieser Vorlesung treffen sich Studierende der Informatik, Mathematik und Computerlinguistik.
-                          </p>
-                          <p class="fs-5 mb-4">
-                            Beweisassistenten werden in der Chipherstellung und Softwareentwicklung eingesetzt, um die Fehlerfreiheit von Soft- und Hardware zu verifizieren. Sie geben MathematikerInnen letzte Gewissheit, wenn sie ihren eigenen Beweisen nicht trauen. Für LinguistInnen sind sie eine Möglichkeit, mit Typentheorie zu experimentieren – einem Formalismus, der auch zur Modellierung der Semantik natürlicher Sprache verwendet wird.
-                          </p>
-                          <p class="fs-5 mb-4">
-                            Die Vorlesung bietet eine bündige Einführung in die Funktionsweise von Beweisassistenten und ihre theoretischen Grundlagen. Dazu zählen zum Beispiel der Lambda-Kalkül, Typentheorie inklusive induktiver Typen und die Curry-Howard-Korrespondenz. Zudem schauen wir uns beispielhaft an, wie Beweisassistenten und Typentheorie für die oben genannten Anwendungen eingesetzt werden können.
-                          </p>
-                          <p class="fs-5 mb-4">
-                            In den Übungen wird die Theorie erfahrbar anhand von <a href="https://leanprover.github.io/">Lean</a>, einem modernen Beweisassistenten, der in der jüngsten Formalisierungswelle innerhalb der Mathematik eine maßgebende Rolle spielt.
-                          </p>
-                          <p><br/></p>
-                        </div>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col mb-4 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
-                            <h2 class="h5">Wann?</h2>
-                            <p class="mb-0">siehe <a href="https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=246744&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF</a>
-                        </div>
-                        <div class="col mb-4 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
-                            <h2 class="h5">Wo?</h2>
-                            <p class="mb-0">Heinrich-Heine-Universität Düsseldorf,
-                              siehe <a href="https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=246744&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF</a></p>
-                        </div>
-                        <div class="col mb-4 mb-md-0 h-100">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people-fill"></i></div>
-                            <h2 class="h5">Wer?</h2>
-                            <p class="mb-0">Bachelor-Studierende der Mathematik, Informatik oder Computerlinguistik im 5./6. Semester</p>
-                        </div>
-                        <div class="col mb-4 mb-md-0 h-100">
-                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
-                          <h2 class="h5">Links</h2>
-                          <p class="mb-0">
-                            <a href="https://www.math.uni-duesseldorf.de/~internet/CB-V-W23/">Vorlesungs-Seite</a><br/>
-                            <a href="https://lsf.hhu.de/qisserver/servlet/de.his.servlet.RequestDispatcherServlet?state=verpublish&status=init&vmfile=no&publishid=246744&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung">LSF-Eintrag</a>
-                          </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    
 
             
-
-            
-            <section class="py-5 bg-light" id="lftcm">
+            <section class="py-5" id="lftcm">
               <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
-                  <h2 class="fw-bolder mb-4"><span class="archive-btn">[Archiv]</span>Workshop <i>Lean for the Curious Mathematician 2023</i></h2>
+                  <h2 class="fw-bolder mb-4">Workshop <i>Lean for the Curious Mathematician 2023</i></h2>
                   <div class="col-lg-12">
                     <h3 class="fw-bolder mb-4">Tutorium</h3>
                     <p  class="fs-5 mb-4">
-                      Anfang September 2023 haben wir eine viertägige Einführung in den Beweisassistenten Lean mit erfahrenen, internationalen Tutoren organisiert.
+                      Anfang September 2023 veranstalteten wir eine viertägige Einführung in den Beweisassistenten Lean mit erfahrenen, internationalen Tutoren.
                     </p>
                     <p>
                       <br/>
@@ -265,7 +296,7 @@
                   <div class="col-lg-12">
                     <h3 class="fw-bolder mb-4">Kolloquium</h3>
                     <p  class="fs-5 mb-4">
-                      Im Anschluss an, aber inhaltich unabhängig vom gleichnamigen Tutorium, haben wir Anfang September 2024 ein zweitägiges Kolloquium durchgeführt.  Internationale Vortragende haben aktuelle Entwicklungen in der Formalisierung aus verschiedenen Richtungen beleuchtet und zum Nachdenken über die zukünftige Rolle von Formalisierung in der Mathematik eingeladen.
+                      Im Anschluss an, aber inhaltich unabhängig vom gleichnamigen Tutorium, führten wir Anfang September 2023 ein zweitägiges Kolloquium durch.  Internationale Vortragende beleuchteten aktuelle Entwicklungen in der Formalisierung aus verschiedenen Richtungen und luden zum Nachdenken über die zukünftige Rolle von Formalisierung in der Mathematik ein.
                       <!--Weitere Informationen sind wiederum auf einer eigenen <a href="https://lftcm2023.github.io/colloquium/">Webseite</a> gebündelt.-->
                     </p>
                     <p>
@@ -273,12 +304,12 @@
                     </p>
                   </div>
                   <div class="row gx-5">
-                    <div class="col mb-4 h-100">
+                    <div class="col mb-4 mb-md-0 h-100">
                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
                       <h2 class="h5">Wann?</h2>
                       <p class="mb-0">07.&ndash;08. September 2023</p>
                     </div>
-                    <div class="col mb-4 h-100">
+                    <div class="col mb-4 mb-md-0 h-100">
                       <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
                       <h2 class="h5">Wo?</h2>
                       <p class="mb-0">Heinrich-Heine-Universität Düsseldorf</p>
@@ -299,14 +330,11 @@
             </section>
 
             
-
-
-            
-            <section class="py-5" id="massot">
+            <section class="py-5 bg-light" id="massot">
               <div class="container px-5 my-5">
                 <div class="row gx-5 align-items-center">
                   <div class="col-lg-12">
-                    <h2 class="fw-bolder mb-4"><span class="archive-btn">[Archiv]</span>Kolloquiumsvortrag <i>Why Explain Mathematics to Computers?</i></h2>
+                    <h2 class="fw-bolder mb-4">Kolloquiumsvortrag <i>Why Explain Mathematics to Computers?</i></h2>
                     <p  class="fs-5 mb-4">
                       Am 12. Mai 2023 kam Patrick Massot (Paris-Saclay) an die HHU, um über seine Motivation für und Erfahrung mit der Formalisierung von Mathematik zu berichten.  Massot hat insbesondere das umfangreiche und erst kürzlich abgeschlossene <a href="https://leanprover-community.github.io/sphere-eversion/">Sphere Eversion Project</a> geleitet.  Zu seinem Vortrag schreibt er:
                    </p>
@@ -317,12 +345,12 @@
                   </div>
                 </div>
                 <div class="row gx-5">
-                  <div class="col mb-4 h-100">
+                  <div class="col mb-4 mb-md-0 h-100">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-calendar-check"></i></div>
                     <h2 class="h5">Wann?</h2>
                     <p class="mb-0">Freitag, 12. Mai 2023<br>16:15&nbsp;Uhr</p>
                   </div>
-                  <div class="col mb-4 h-100">
+                  <div class="col mb-4 mb-md-0 h-100">
                     <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-geo-alt"></i></div>
                     <h2 class="h5">Wo?</h2>
                     <p class="mb-0">Hörsaal 5H, Heinrich-Heine-Universität Düsseldorf</p>
@@ -341,16 +369,12 @@
               </div>
             </section>
 
-            <section class="py-5 bg-light" id="gameover23">
+<!--            <section class="py-5 bg-light" id="gameover23">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-12">
-                          <h2 class="fw-bolder mb-4"><span class="archive-btn">[ARCHIV]</span>Seminar <i>Game over oder QED?</i></h2>
+                          <h2 class="fw-bolder mb-4">Seminar <i>Game over oder QED?</i></h2>
                           <h3 class="fw-bolder mb-4">Sommersemester 2023</h3>
-
-                          <p class="fs-5 mb-4" style="color:#930000;">
-                            Das Seminar wird im Sommersemester 2024 wiederholt werden, <a href="#gameover">siehe oben</a>.
-                          </p>
                             <p class="fs-5 mb-4">
                               In diesem Seminar lernten die Teilnehmer:innen, Beweise und typische Übungsaufgaben aus den ersten Mathematiksemestern mit Hilfe des modernen Beweisassistenten <a href="https://leanprover.github.io/">Lean</a> zu formalisieren und zu verifizieren.  Obwohl sich Lean noch in der aktiven Entwicklungsphase befindet, hat sich Lean bereits sowohl in der Formalisierung <a href="https://leanprover-community.github.io/mathlib-overview.html">weiter Teile des Bachelor-Curriculums</a> als auch bei der Formalisierung tiefliegender mathematischer Forschungsergebnisse bewährt.
                             </p>
@@ -362,12 +386,7 @@
                             <p class="fs-5 mb-4">
                               Das Seminar richtet sich an Bachelor-Studierende der Studiengänge <i>Mathematik und Anwendungsgebiete</i> oder <i>Finanz- und Versicherungsmathematik</i>, ab dem vierten Semester.
                             </p>
-                              <!--Sie können sich ab März 2023 über das <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240496&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y&menu_open=y#terms">LSF</a> für dieses Seminar anmelden.
-                              Die Teilnehmerzahl ist auf 12 begrenzt.  <!--Bei mehr Anmeldungen werden wir eine Auswahl treffen.
-                            </p>
-                            <p class="fs-5 mb-4">
-                              <b>Update 04. April 2023:</b> Die maximale Teilnehmerzahl wurde bereits erreicht.  Eine Anmeldung ist nicht mehr möglich.
-                            </p>-->
+                              
                             <p><br></p>
                         </div>
                     </div>
@@ -389,7 +408,7 @@
                         </div>
                         <div class="col mb-4 mb-md-0 h-100">
                           <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-globe"></i></div>
-                          <h2 class="h5">Links</h2>
+                          <h2 class="h5">Link</h2>
                           <p class="mb-0">
                             <a href="https://adam.math.hhu.de">Lean Game Server</a><br/>
                             <a href="https://lsf.hhu.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=240496&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung&noDBAction=y&init=y&menu_open=y#terms">LSF-Eintrag</a>
@@ -397,38 +416,52 @@
                         </div>
                     </div>
                 </div>
-            </section>
-            
-            <section class="py-5" id="traeger">
+            </section>-->
+
+            <section class="py-5" id="people">
               <div class="py-5">
                 <div class="container px-5 my-5">
                   <div class="row gx-5 align-items-center">
                     <!--<div class="col-xl-12">-->
-                      <h2 class="fw-bolder mb-4">Träger</h2>
+                      <h2 class="fw-bolder mb-4">Personen</h2>
+                      <p class="fs-5 mb-4"><!--div class="col-xl-8">-->
+                        • <a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Prof. Dr. Marcus Zibrowius</a> (Projektleitung)<br/>
+                        • <a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebra-und-zahlentheorie/team/prof-immanuel-halupczok">Prof. Dr. Immanuel Halupczok</a> (Projektleitung)<br/>
+                        • <a href="https://abentkamp.github.io/">Dr. Alexander Bentkamp</a> (Lean4 Webeditor, Lean Game Server)<br/>
+                        • <a href="https://github.com/joneugster">Jon Eugster</a> (Lean Game Server, Robo)<br/>
+                        • <a href="https://sinhp.github.io/">Dr. Sina Hazratpour</a> (Robo)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            
+            <section class="py-5 bg-light" id="traeger">
+              <div class="py-5">
+                <div class="container px-5 my-5">
+                  <div class="row gx-5 align-items-center">
+                    <!--<div class="col-xl-12">-->
                       <div class="col-xl-8">
+                        <h2 class="fw-bolder mb-4">Träger</h2>
                         <p class="fs-5 mb-4">
-                          Das Projekt <i>ADAM: Anticipating the Digital Age of Mathematics</i> ist angesiedelt an der <a href="https://www.hhu.de/">Heinrich-Heine-Universität Düsseldorf</a> und wird finanziert durch die Stiftung für Innovation in der Hochschullehre.
-                        </p>
-                        <p class="fs-5 mb-4">
-                        Ansprechpartner:<br>
-                        • <a href="https://www.math.uni-duesseldorf.de/~zibrowius/">Prof. Dr. Marcus Zibrowius</a><br/>
-                        • <a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebra-und-zahlentheorie/team/prof-immanuel-halupczok">Prof. Dr. Immanuel Halupczok</a><br/>
-                        • <a href="https://abentkamp.github.io/">Dr. Alexander Bentkamp</a><br/>
-                        • <a href="https://www.math.hhu.de/lehrstuehle-/-personen-/-ansprechpartner/innen/lehrstuehle-des-mathematischen-instituts/lehrstuhl-fuer-algebraische-geometrie/team/jon-eugster">Jon Eugster</a>
+                          Das Projekt <i>ADAM: Anticipating the Digital Age of Mathematics</i> ist angesiedelt an der <a href="https://www.hhu.de/">Heinrich-Heine-Universität Düsseldorf</a> und wurde finanziert durch die Stiftung für Innovation in der Hochschullehre.
                         </p>
                       </div>
-                      <div class="col-xl-4">
+                      <div class="col mb-4 mb-md-0 h-100">
+                      <!--<div class="col-xl-4">-->
                         <div class="col lg-8 h-100">
                           <img src="img/hhu.png" width="100%" style="max-width:30em"/>
                         </div>
-                        <div class="col mb-4 h-100">
+                        <div class="col mb-4 mb-md-0 h-100">
+                        <!--<div class="col mb-4 h-100">-->
                           <img src="img/Logo_Stiftung_Hochschullehre_pos.png" width="100%" style="max-width:30em" />
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              <!--</div>-->
             </section>
         </main>
         <!-- Footer-->
